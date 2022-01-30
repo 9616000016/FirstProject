@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+#main #text{
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    font-size: 45px;
+    font-family: Gilory;
+    color: white;
+    line-height: .8;
+    z-index: 1;
+}
+#left{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
+
+#center{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    left: 30%;
+    background-image: url(https://images.unsplash.com/photo-1633677263253-6d61486a34e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#right{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 0%;
+    background-image: url(https://images.unsplash.com/photo-1530136163523-12e48a0a192c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#right #btm{
+    position: absolute;
+    width: 100%;
+    height:20%;
+    bottom: 0%;
+    background-color: white;
+    z-index: 1;
+}
+
+#btm h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-family: gilroy;
+}
+
+#center h1{
+    position: absolute;
+    bottom: 8%;
+    font-size: 45px;
+    font-family: gilroy;
+    color: white;
+    left: 5%;
+    letter-spacing: 3px;
+}
+
+#center h2{
+    position: absolute;
+    bottom: 8%;
+    left: 2px;
+    font-size: 65px;
+    color: white;
+
+}
+
+#left #lfttext{
+    position: absolute;
+    bottom: 8%;
+    left: 9%;
+    font-size: 30px;
+    font-family: gilroy;
+    line-height: .9;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+#circle{
+    position: absolute;
+    width: 20%;
+    height: 23%;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 20%;
+    right: 18%;
+}
+
+ #center #circle h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+#left h4{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 20px;
+}
+
+#center h4{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 20px;
+
+}
+
+#line{
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    top: 70%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    z-index: 2;
+}
+
+#line #lefttext{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    letter-spacing: 3px;
+    font-weight: lighter;
+
+}
+
+#line #righttext{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+#main #text:hover{
+    cursor: pointer;
+    font-size: 50px;
+    color: black;
+    -webkit-text-stroke: 2px rgb(114, 14, 14);
+}
+
+#main #center #circle:hover{
+    cursor: pointer;
+    border-color: rgb(114, 14, 14);
+}
+
+#main #center #circle:hover{
+    cursor: pointer;
+    letter-spacing: 4px;
+    color: rgb(114, 14, 14);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+#right #btm:hover{
+    cursor: pointer;
+    color:rgb(114, 14, 14);
+    background-color: black;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+#center h1:hover{
+    cursor: pointer;
+    color: rgb(114, 14, 14);
+    -webkit-text-stroke: 2px #333;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+#center h2:hover{
+    cursor: pointer;
+    color: #333;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+#main #lfttext:hover{
+    cursor: pointer;
+    color: black;
+    -webkit-text-stroke: 2px rgb(114, 14, 14);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+
+#lefttext:hover{
+    cursor: pointer;
+    color: rgb(114, 14, 14);
+}
+
+#righttext:hover{
+    cursor: pointer;
+    color: rgb(114, 14, 14);
+}
+
+#left h4:hover{
+    cursor: pointer;
+    color: rgb(114, 14, 14);
+    letter-spacing: 2px;
+}
+
+#center h4:hover{
+    cursor: pointer;
+    color: rgb(114, 14, 14);
+    letter-spacing: 2px;
+}
+
